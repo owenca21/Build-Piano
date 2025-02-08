@@ -22,6 +22,7 @@ body {
 
 .key {
   /* blank for now */
+  
 }
 
 .white {
@@ -39,3 +40,11 @@ body {
   margin-right: -30px;
   z-index: 2;
 }
+
+.white.active {
+    background-color: #ccc;
+  }
+  
+  .black.active {
+    background-color: #333;
+  }
